@@ -2,7 +2,6 @@ import type { CSSProperties } from "react";
 import site from "../content/site.json";
 import { Icon } from "./Icon";
 import { Brand } from "./Brand";
-import { ServiceAreaMap } from "./ServiceAreaMap";
 import { getContent, type LocaleCode } from "../lib/content";
 
 export function HomePage({ lang = "nl" }:{lang?:LocaleCode}) {
@@ -97,7 +96,7 @@ export function HomePage({ lang = "nl" }:{lang?:LocaleCode}) {
           <p className="area-question">{t.areaSection.question}</p>
           <a className="text-link area-link" href="#contact">{t.areaSection.contactCta}</a>
         </div>
-        <div className="area-visual"><ServiceAreaMap labels={t.mapLabels} ariaLabel={t.areaSection.ariaLabel}/></div>
+        <div className="area-visual"><img src="/media/work-area-approved.png" alt={t.areaSection.ariaLabel} loading="lazy"/></div>
       </section>
 
       <section className="contact-band" id="contact">
