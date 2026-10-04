@@ -27,7 +27,7 @@ export async function POST(request:Request){
     for(const p of photos){
       const validUntil=Date.now()+7*24*60*60*1000;
       const token=await issueSignedToken({pathname:p.pathname,operations:["get"],validUntil});
-      const {presignedUrl}=await presignUrl(token,{pathname:p.pathname,operation:"get",validUntil});
+      const {presignedUrl}=await presignUrl(token,{pathname:p.pathname,operation:"get",validUntil,access:"private"});
       links.push(`<li><a href="${presignedUrl}">${esc(p.name||"Foto")}</a> <small>(link 7 dagen geldig)</small></li>`);
     }
     const adminHtml=`<h2>Nieuwe aanvraag via rentready.be</h2><p><strong>Naam:</strong> ${esc(name)}<br><strong>E-mail:</strong> ${esc(email)}<br><strong>Telefoon:</strong> ${esc(phone)}<br><strong>Postcode/gemeente:</strong> ${esc(location)}<br><strong>Adres:</strong> ${esc(address||"-")}<br><strong>Dienst:</strong> ${esc(service)}<br><strong>Timing:</strong> ${esc(timing)}</p><h3>Beschrijving</h3><p>${esc(description).replace(/\n/g,"<br>")}</p>${links.length?`<h3>Foto's</h3><ul>${links.join("")}</ul>`:"<p><em>Geen foto's toegevoegd.</em></p>"}`;
