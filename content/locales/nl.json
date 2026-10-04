@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Rent Ready | Woningservice voor eigenaars en verhuurders",
+    "description": "Rent Ready helpt met kleine herstellingen, verhuur- en verkoopklaar maken, inspecties, plaatsbeschrijvingen en sleutelservice.",
+    "canonical": "https://rentready.be/nl",
+    "locale": "nl_BE",
+    "openGraphTitle": "Rent Ready | Uw woning, klaar voor de volgende stap",
+    "openGraphDescription": "Praktische woningservice voor eigenaars, verhuurders en vastgoedprofessionals.",
+    "schemaDescription": "Professionele woningservice voor kleine herstellingen, verhuur- en verkoopklaar maken, inspecties, plaatsbeschrijvingen en sleutelservice."
+  },
+  "navigation": [
+    {"label": "Diensten", "href": "#diensten"},
+    {"label": "Waarom Rent Ready", "href": "#waarom"},
+    {"label": "Voor wie", "href": "#voor-wie"},
+    {"label": "Werkwijze", "href": "#werkwijze"},
+    {"label": "Werkgebied", "href": "#werkgebied"}
+  ],
+  "header": {"cta": "Contact"},
+  "hero": {
+    "eyebrow": "Praktische woningservice",
+    "titlePrefix": "Uw woning,",
+    "titleHighlight": "klaar voor de volgende stap.",
+    "text": "Rent Ready helpt particulieren, eigenaars en verhuurders met praktische werken in en rond de woning, van kleine herstellingen tot het volledig verhuur- of verkoopklaar maken van een pand.",
+    "primaryCta": "Bespreek uw opdracht",
+    "secondaryCta": "Bekijk onze diensten",
+    "points": [
+      {"icon": "check", "label": "Eén aanspreekpunt"},
+      {"icon": "clock", "label": "Snel en praktisch"},
+      {"icon": "key", "label": "Van opdracht tot oplevering"}
+    ]
+  },
+  "servicesSection": {
+    "kicker": "Onze diensten",
+    "title": "Praktische hulp voor uw woning of vastgoed",
+    "intro": "Van een kleine herstelling tot het opnieuw klaarzetten van een volledige woning. Rent Ready focust op concrete oplossingen en een verzorgd resultaat.",
+    "link": "Bespreek uw opdracht →",
+    "scopeLabel": "Goed om te weten:",
+    "scopeNote": "Rent Ready focust op kleine herstellingen en woningservice. Voor grotere of gespecialiseerde werken bekijken we samen wat de beste oplossing is."
+  },
+  "services": {
+    "repairs": {"title": "Kleine herstellingen & woningservice", "text": "Praktische herstellingen, montage, kleine aanpassingen en andere werken die blijven liggen of snel opgelost moeten worden."},
+    "rentReady": {"title": "Verhuur- of verkoopklaar maken", "text": "We helpen een woning opnieuw netjes, functioneel en presentabel maken voor een nieuwe huurder, koper of bezichtiging."},
+    "inspection": {"title": "Inspectie, plaatsbeschrijving & sleutelservice", "text": "Praktische ondersteuning bij controles, plaatsbeschrijvingen, sleuteloverdracht en toegang tot het pand."}
+  },
+  "whySection": {
+    "kicker": "Waarom Rent Ready",
+    "title": "Geen losse klusjes. Wel een betrouwbare woningpartner.",
+    "intro": "U hoeft niet voor elk klein probleem een andere oplossing te zoeken. Rent Ready bekijkt wat nodig is, maakt duidelijke afspraken en zorgt dat het uitgevoerd raakt."
+  },
+  "benefits": {
+    "singleContact": {"title": "Eén aanspreekpunt", "text": "Eenvoudige communicatie en één contactpersoon voor de praktische opvolging."},
+    "clearAgreements": {"title": "Duidelijke afspraken", "text": "Vooraf helder over wat we doen, wanneer en tegen welke voorwaarden."},
+    "fastPractical": {"title": "Snel en praktisch", "text": "Geen onnodige complexiteit. We zoeken naar een haalbare oplossing en pakken aan."},
+    "jobToHandover": {"title": "Van opdracht tot oplevering", "text": "We kijken verder dan één losse taak en houden het eindresultaat voor ogen."}
+  },
+  "audienceSection": {
+    "kicker": "Voor wie",
+    "title": "Voor iedereen die een woning praktisch in orde wil krijgen",
+    "intro": "Rent Ready werkt voor particuliere eigenaars, verhuurders en vastgoedprofessionals die snel en betrouwbaar vooruit willen."
+  },
+  "audiences": {
+    "owners": {"title": "Particuliere eigenaars", "text": "Voor praktische werken, kleine herstellingen en hulp in of rond uw eigen woning."},
+    "landlords": {"title": "Verhuurders", "text": "Voor de overgang tussen huurders, controles, herstellingen en het opnieuw verhuurklaar maken van een pand."},
+    "propertyOwners": {"title": "Vastgoedeigenaars & investeerders", "text": "Voor praktische opvolging van één of meerdere woningen zonder zelf voor elke taak ter plaatse te moeten zijn."},
+    "agents": {"title": "Vastgoedprofessionals", "text": "Als praktische partner wanneer een woning vóór verhuur, verkoop of overdracht nog in orde gebracht moet worden."}
+  },
+  "processSection": {
+    "kicker": "Werkwijze",
+    "title": "Eenvoudig van vraag naar resultaat",
+    "intro": "Geen ingewikkeld proces. We bekijken de opdracht, spreken duidelijk af en zorgen dat het werk vooruitgaat."
+  },
+  "process": {
+    "request": {"title": "Neem contact op", "text": "Stuur kort wat er moet gebeuren, liefst met enkele foto's."},
+    "align": {"title": "We stemmen af", "text": "We bekijken de opdracht, timing en praktische afspraken."},
+    "execution": {"title": "We voeren uit", "text": "De afgesproken werken worden praktisch en zorgvuldig aangepakt."},
+    "done": {"title": "Klaar", "text": "U krijgt een duidelijke terugkoppeling en het pand is klaar voor de volgende stap."}
+  },
+  "areaSection": {
+    "kicker": "Werkgebied",
+    "title": "Actief vanuit Landen, over een brede regio",
+    "intro": "Rent Ready werkt vanuit Landen en helpt klanten onder meer in de regio's Tienen, Sint-Truiden, Leuven, Hasselt, Hannut en Brussel.",
+    "extended": "Afhankelijk van de opdracht zijn ook verplaatsingen buiten deze kernregio mogelijk.",
+    "question": "Twijfelt u of uw woning binnen ons werkgebied valt?",
+    "contactCta": "Neem even contact op →",
+    "ariaLabel": "Indicatieve kaart van het werkgebied van Rent Ready"
+  },
+  "mapLabels": {"brussels": "Brussel", "leuven": "Leuven", "hasselt": "Hasselt", "liege": "Luik", "namur": "Namen"},
+  "contactSection": {
+    "kicker": "Contact",
+    "title": "Wat moet er gebeuren?",
+    "intro": "Stuur ons kort wat u nodig heeft. Met enkele foto's kunnen we vaak snel inschatten hoe we u het best helpen.",
+    "whatsappCta": "Stuur via WhatsApp",
+    "trust": ["Snelle eerste reactie", "Duidelijke afspraken", "Praktische aanpak"]
+  },
+  "mediaAlt": {
+    "logo": "Rent Ready",
+    "hero": "Verzorgde moderne woning",
+    "why": "Praktische woningservice van Rent Ready",
+    "contact": "Woninginspectie en praktische opvolging",
+    "services": {
+      "repairs": "Kleine herstellingen en woningservice",
+      "rentReady": "Woning verhuur- of verkoopklaar maken",
+      "inspection": "Inspectie en sleutelservice"
+    }
+  }
+}
