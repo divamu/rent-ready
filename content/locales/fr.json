@@ -1,0 +1,106 @@
+{
+  "seo": {
+    "title": "Rent Ready | Services pratiques pour propriétaires et bailleurs",
+    "description": "Rent Ready vous aide avec les petites réparations, la préparation à la location ou à la vente, les inspections, états des lieux et la gestion des clés.",
+    "canonical": "https://rentready.be/fr",
+    "locale": "fr_BE",
+    "openGraphTitle": "Rent Ready | Votre bien prêt pour la prochaine étape",
+    "openGraphDescription": "Services pratiques pour propriétaires, bailleurs et professionnels de l'immobilier.",
+    "schemaDescription": "Service professionnel pour petites réparations, préparation à la location ou à la vente, inspections, états des lieux et gestion des clés."
+  },
+  "navigation": [
+    {"label": "Services", "href": "#diensten"},
+    {"label": "Pourquoi Rent Ready", "href": "#waarom"},
+    {"label": "Pour qui", "href": "#voor-wie"},
+    {"label": "Méthode", "href": "#werkwijze"},
+    {"label": "Zone", "href": "#werkgebied"}
+  ],
+  "header": {"cta": "Contact"},
+  "hero": {
+    "eyebrow": "Services pratiques pour votre bien",
+    "titlePrefix": "Votre bien,",
+    "titleHighlight": "prêt pour la prochaine étape.",
+    "text": "Rent Ready aide les particuliers, propriétaires et bailleurs avec les travaux pratiques dans et autour du logement, des petites réparations jusqu'à la préparation complète d'un bien pour la location ou la vente.",
+    "primaryCta": "Parlons de votre demande",
+    "secondaryCta": "Voir nos services",
+    "points": [
+      {"icon": "check", "label": "Un seul interlocuteur"},
+      {"icon": "clock", "label": "Rapide et pratique"},
+      {"icon": "key", "label": "De la demande à la livraison"}
+    ]
+  },
+  "servicesSection": {
+    "kicker": "Nos services",
+    "title": "Une aide pratique pour votre logement ou patrimoine",
+    "intro": "D'une petite réparation à la remise en ordre complète d'un logement. Rent Ready se concentre sur des solutions concrètes et un résultat soigné.",
+    "link": "Parlons de votre demande →",
+    "scopeLabel": "Bon à savoir :",
+    "scopeNote": "Rent Ready se concentre sur les petites réparations et les services pratiques. Pour les travaux plus importants ou spécialisés, nous examinons ensemble la meilleure solution."
+  },
+  "services": {
+    "repairs": {"title": "Petites réparations & services pratiques", "text": "Réparations pratiques, montage, petits ajustements et autres travaux qui restent en attente ou doivent être résolus rapidement."},
+    "rentReady": {"title": "Préparation à la location ou à la vente", "text": "Nous aidons à rendre un logement propre, fonctionnel et présentable pour un nouveau locataire, un acheteur ou une visite."},
+    "inspection": {"title": "Inspection, état des lieux & gestion des clés", "text": "Assistance pratique pour les contrôles, états des lieux, remise des clés et accès au bien."}
+  },
+  "whySection": {
+    "kicker": "Pourquoi Rent Ready",
+    "title": "Pas une succession de petits travaux. Un partenaire fiable pour votre bien.",
+    "intro": "Vous ne devez pas chercher une solution différente pour chaque petit problème. Rent Ready analyse les besoins, fixe des accords clairs et veille à l'exécution."
+  },
+  "benefits": {
+    "singleContact": {"title": "Un seul interlocuteur", "text": "Communication simple et un contact unique pour le suivi pratique."},
+    "clearAgreements": {"title": "Des accords clairs", "text": "Vous savez à l'avance ce que nous faisons, quand et dans quelles conditions."},
+    "fastPractical": {"title": "Rapide et pratique", "text": "Pas de complexité inutile. Nous cherchons une solution réalisable et passons à l'action."},
+    "jobToHandover": {"title": "De la demande à la livraison", "text": "Nous regardons au-delà d'une tâche isolée et gardons le résultat final en vue."}
+  },
+  "audienceSection": {
+    "kicker": "Pour qui",
+    "title": "Pour tous ceux qui veulent remettre un logement en ordre efficacement",
+    "intro": "Rent Ready travaille pour les propriétaires particuliers, bailleurs et professionnels de l'immobilier qui veulent avancer rapidement et de manière fiable."
+  },
+  "audiences": {
+    "owners": {"title": "Propriétaires particuliers", "text": "Pour les travaux pratiques, petites réparations et l'aide dans ou autour de votre propre logement."},
+    "landlords": {"title": "Bailleurs", "text": "Pour la transition entre locataires, les contrôles, réparations et la remise en état avant une nouvelle location."},
+    "propertyOwners": {"title": "Propriétaires & investisseurs", "text": "Pour le suivi pratique d'un ou plusieurs biens sans devoir être présent pour chaque tâche."},
+    "agents": {"title": "Professionnels de l'immobilier", "text": "Comme partenaire pratique lorsqu'un bien doit encore être remis en ordre avant location, vente ou transfert."}
+  },
+  "processSection": {
+    "kicker": "Méthode",
+    "title": "Simple, de la demande au résultat",
+    "intro": "Pas de processus compliqué. Nous examinons la demande, convenons clairement des modalités et faisons avancer le travail."
+  },
+  "process": {
+    "request": {"title": "Contactez-nous", "text": "Expliquez brièvement ce qu'il faut faire, de préférence avec quelques photos."},
+    "align": {"title": "Nous nous accordons", "text": "Nous examinons la mission, le planning et les modalités pratiques."},
+    "execution": {"title": "Nous réalisons", "text": "Les travaux convenus sont exécutés de manière pratique et soignée."},
+    "done": {"title": "Terminé", "text": "Vous recevez un retour clair et le bien est prêt pour la prochaine étape."}
+  },
+  "areaSection": {
+    "kicker": "Zone d'intervention",
+    "title": "Basés à Landen, actifs dans une large région",
+    "intro": "Rent Ready travaille depuis Landen et aide notamment des clients dans les régions de Tirlemont, Saint-Trond, Louvain, Hasselt, Hannut et Bruxelles.",
+    "extended": "Selon la mission, des déplacements en dehors de cette zone principale sont également possibles.",
+    "question": "Vous ne savez pas si votre bien se trouve dans notre zone d'intervention ?",
+    "contactCta": "Contactez-nous →",
+    "ariaLabel": "Carte indicative de la zone d'intervention de Rent Ready"
+  },
+  "mapLabels": {"brussels": "Bruxelles", "leuven": "Louvain", "hasselt": "Hasselt", "liege": "Liège", "namur": "Namur"},
+  "contactSection": {
+    "kicker": "Contact",
+    "title": "Que faut-il faire ?",
+    "intro": "Envoyez-nous brièvement ce dont vous avez besoin. Avec quelques photos, nous pouvons souvent évaluer rapidement la meilleure façon de vous aider.",
+    "whatsappCta": "Envoyer via WhatsApp",
+    "trust": ["Première réponse rapide", "Accords clairs", "Approche pratique"]
+  },
+  "mediaAlt": {
+    "logo": "Rent Ready",
+    "hero": "Logement moderne et soigné",
+    "why": "Service pratique pour le logement par Rent Ready",
+    "contact": "Inspection et suivi pratique d'un logement",
+    "services": {
+      "repairs": "Petites réparations et services pratiques",
+      "rentReady": "Préparation d'un logement à la location ou à la vente",
+      "inspection": "Inspection et gestion des clés"
+    }
+  }
+}
