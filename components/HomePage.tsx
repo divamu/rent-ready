@@ -25,7 +25,7 @@ export function HomePage({ lang = "nl" }:{lang?:LocaleCode}) {
           <div className="language-switcher" aria-label="Language">
             {site.locales.map(locale => <a key={locale.code} className={locale.code === lang ? "active" : ""} href={locale.path}>{locale.label}</a>)}
           </div>
-          <a className="header-cta" href={site.contact.whatsapp}>{t.header.cta} →</a>
+          <a className="header-cta" href={`/${lang}/aanvraag`}>{t.header.cta} →</a>
         </div>
       </div>
     </header>
@@ -37,7 +37,7 @@ export function HomePage({ lang = "nl" }:{lang?:LocaleCode}) {
           <h1>{t.hero.titlePrefix} <span>{t.hero.titleHighlight}</span></h1>
           <p className="hero-lead">{t.hero.text}</p>
           <div className="actions">
-            <a className="btn btn-gold" href={site.contact.whatsapp}><Icon name="wrench"/> {t.hero.primaryCta} →</a>
+            <a className="btn btn-gold" href={`/${lang}/aanvraag`}><Icon name="wrench"/> {t.hero.primaryCta} →</a>
             <a className="btn btn-ghost" href="#diensten">{t.hero.secondaryCta}</a>
           </div>
           <div className="hero-points">
@@ -51,7 +51,7 @@ export function HomePage({ lang = "nl" }:{lang?:LocaleCode}) {
         <div className="wrap">
           <div className="section-head">
             <div className="copy"><p className="kicker">{t.servicesSection.kicker}</p><h2>{t.servicesSection.title}</h2><p>{t.servicesSection.intro}</p></div>
-            <a className="text-link" href={site.contact.whatsapp}>{t.servicesSection.link}</a>
+            <a className="text-link" href={`/${lang}/aanvraag`}>{t.servicesSection.link}</a>
           </div>
           <div className="services">
             {site.sections.services.map(s => {
