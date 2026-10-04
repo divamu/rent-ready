@@ -101,7 +101,7 @@ export function HomePage({ lang = "nl" }:{lang?:LocaleCode}) {
 
       <section className="contact-band" id="contact">
         <div className="contact-copy"><p className="kicker">{t.contactSection.kicker}</p><h2>{t.contactSection.title}</h2><p>{t.contactSection.intro}</p>
-          <div className="contact-actions"><a className="btn btn-gold" href={`${currentPath}/contact`}>{lang === "fr" ? "Contactez Rent Ready →" : lang === "en" ? "Contact Rent Ready →" : "Contacteer Rent Ready →"}</a><a className="btn btn-ghost" href={site.contact.whatsapp}>{t.contactSection.whatsappCta}</a></div>
+          <div className="contact-actions"><a className="btn btn-gold" href={`/${lang}/aanvraag`}>{lang === "fr" ? "Contactez Rent Ready →" : lang === "en" ? "Contact Rent Ready →" : "Contacteer Rent Ready →"}</a><a className="btn btn-ghost" href={site.contact.whatsapp}>{t.contactSection.whatsappCta}</a></div>
           <div className="trust">{t.contactSection.trust.map(item => <span key={item}><Icon name="check"/>{item}</span>)}</div>
         </div>
         <div className="contact-photo"><img src={site.media.contact.src} alt={t.mediaAlt.contact} loading="lazy"/></div>
