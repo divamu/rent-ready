@@ -1,0 +1,9 @@
+{
+  "brand":{"name":"Rent Ready","tagline":"Your property partner","domain":"rentready.be"},
+  "theme":{"colors":{"green":"#1F3D2B","green2":"#153225","green3":"#0E281C","gold":"#C9A227","gold2":"#D7B85B","cream":"#F7F4EC","ink":"#18231C","muted":"#647066","line":"#E7E4DA","white":"#FFFFFF"}},
+  "media":{"logo":{"src":"/media/logo.svg"},"hero":{"src":"/media/hero-home.webp"},"why":{"src":"/media/why-rent-ready.webp"},"contact":{"src":"/media/contact-intake.webp"},"services":{"repairs":{"src":"/media/service-repairs.webp"},"rentReady":{"src":"/media/service-rent-ready.webp"},"inspection":{"src":"/media/service-inspection.webp"}}},
+  "contact":{"phoneDisplay":"+32 456 99 06 22","phone":"+32456990622","email":"info@rentready.be","whatsapp":"https://wa.me/32456990622"},
+  "defaultLocale":"nl","locales":[{"code":"nl","label":"NL","path":"/nl"},{"code":"fr","label":"FR","path":"/fr"},{"code":"en","label":"EN","path":"/en"}],
+  "sections":{"services":[{"id":"repairs","icon":"wrench","media":"repairs"},{"id":"rentReady","icon":"home","media":"rentReady"},{"id":"inspection","icon":"key","media":"inspection"}],"benefits":[{"id":"singleContact","icon":"key"},{"id":"clearAgreements","icon":"check"},{"id":"fastPractical","icon":"clock"},{"id":"jobToHandover","icon":"home"}],"audiences":[{"id":"owners","icon":"user"},{"id":"landlords","icon":"key"},{"id":"propertyOwners","icon":"building"},{"id":"agents","icon":"handshake"}],"process":[{"id":"request","step":"01","icon":"phone"},{"id":"align","step":"02","icon":"clipboard"},{"id":"execution","step":"03","icon":"wrench"},{"id":"done","step":"04","icon":"check"}]},
+  "map":{"cities":["brussels","leuven","hasselt","liege","namur"]}
+}
