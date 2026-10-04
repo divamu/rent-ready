@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import site from "../content/site.json";
 import nl from "../content/locales/nl.json";
 import "./globals.css";
+import AnalyticsConsent from "../components/AnalyticsConsent";
 
 export const metadata: Metadata = {
   title: nl.seo.title,
@@ -13,5 +14,5 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}:{children:React.ReactNode}) {
   const schema = { "@context":"https://schema.org", "@type":"HomeAndConstructionBusiness", "name":site.brand.name, "url":"https://rentready.be", "telephone":site.contact.phoneDisplay, "email":site.contact.email, "areaServed":["Flemish Brabant","Limburg","Brussels","Namur","Liège"], "description":nl.seo.schemaDescription };
-  return <html lang="nl"><body>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/></body></html>
+  return <html lang="nl"><body>{children}<AnalyticsConsent/><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/></body></html>
 }
